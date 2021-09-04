@@ -110,3 +110,14 @@ else:
 
 print(f"La antigüedad del empleado es de {años} "
       f"tiene derecho a cobrar ${pbono} en bono")
+
+# punto 8 ---------------------------------------------------------------------
+
+horas = int(input('Digite cuantas horas trabajo el profesor: $'))
+valor = horas*20000
+dcuento = valor*0.05
+
+print(f"Horas trabajadas {horas} \n"
+      f"Valor a pagar antes de descuento: ${valor} \n"
+      f"Valor del 5% de caja de ahorro: ${dcuento} \n"
+      f"Valor a pagar: ${valor-dcuento}")
