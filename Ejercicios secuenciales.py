@@ -203,3 +203,16 @@ else:
 print(f"Dias de hospedaje: {dias} \n"
       f"Aplica promocion: {aplica}\n"
       f"Valor a pagar: {valor}\n")
+
+# punto 15 --------------------------------------------------------------------
+
+prestamo = int(input("Cantidad de dinero a prestar: $"))
+intereses = prestamo*0.24
+especial = ((prestamo+intereses)/2)/4
+ordinarias = ((prestamo+intereses)/2)/20
+
+print(f"Valor del microcredito: ${prestamo} \n"
+      f"Valor de los intereses: #{intereses}\n"
+      f"Valor de las 4 cuotas especiales: ${especial}\n"
+      f"Valor de las 20 cuotas ordinarias: ${ordinarias}\n"
+      f"Valor total a pagar: ${intereses+prestamo}")
