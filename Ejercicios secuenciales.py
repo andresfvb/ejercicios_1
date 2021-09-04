@@ -189,3 +189,17 @@ print(f"numero de personas: {miembros} \n"
       f"Valor antes de IVA: {grupov}\n"
       f"Valor IVA: {IVA}\n"
       f"Valor a pagar: ${IVA+grupov}")
+
+# punto 14 --------------------------------------------------------------------
+
+dias = int(input("Cuantos dias desea hospedarse: "))
+if dias > 1:
+    valor = ((dias-1)*200000)+100000
+    aplica = "Si"
+else:
+    valor = 100000
+    aplica = "No"
+
+print(f"Dias de hospedaje: {dias} \n"
+      f"Aplica promocion: {aplica}\n"
+      f"Valor a pagar: {valor}\n")
