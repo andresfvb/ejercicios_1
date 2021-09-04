@@ -66,7 +66,22 @@ print(f"Inversor 1: ${inv1} dando como porcentaje {(inv3/suma)*100}%")
 # punto 4 ---------------------------------------------------------------------
 
 base = int(input('Digite el salario base del empleado: $'))
-interes = (base*0.15)
+interes = (base*0.015)
 
 print(f"El valor a descontantar del 1.5% es de ${interes}")
 print(f"El valor a pagar es de ${base-interes}")
+
+# punto 5 ---------------------------------------------------------------------
+
+base = int(input('Digite el salario base del empleado: $'))
+dp = base*0.01
+ss = base*0.04
+sf = base*0.005
+ca = base*0.05
+
+print(f"Salario del empleado: ${base}")
+print(f"Descuento de politica publica ${dp}")
+print(f"Descuento de seguro social ${ss}")
+print(f"Descuento de seguro forzoso ${sf}")
+print(f"Descuento de caja de ahorro ${ca}")
+print(f"Valor a pagar: ${base-(dp+ss+sf+ca)}")
