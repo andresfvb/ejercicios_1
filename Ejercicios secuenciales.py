@@ -85,3 +85,14 @@ print(f"Descuento de seguro social ${ss}")
 print(f"Descuento de seguro forzoso ${sf}")
 print(f"Descuento de caja de ahorro ${ca}")
 print(f"Valor a pagar: ${base-(dp+ss+sf+ca)}")
+
+# punto 6 ---------------------------------------------------------------------
+
+npa = int(input('Digite la cantidad de palabras que llevara su clasificado: '))
+ncm = int(input('Digite los centimetros de su clasificado: '))
+nco = int(input('Digite cuantos colores desea usar: '))
+pa = 20000*npa
+cm = 15000*ncm
+co = 25000*nco
+cobro = pa+cm+co
+print(f"El valor de su clasificado es de ${cobro}")
