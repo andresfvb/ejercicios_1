@@ -157,3 +157,22 @@ print(f"Monto ingresado al hospital: ${monto} \n"
       f"Presupuesto para Ginecologia: ${monto*gineco} \n"
       f"Presupuesto para Traumatologia ${monto*trauma}\n"
       f"Presupuesto para pediatria ${monto*pedia}")
+
+# punto 12 --------------------------------------------------------------------
+
+np = int(input("------ Promocion alquila mas de dos "
+               "y una la llevas gratis------\n"
+               "Digite cuantas peliculas desea alquilar: "))
+nd = int(input("Digite cuantos dias desea alquilar: "))
+if np > 2: 
+    np = np-1
+    valor = (nd*1500)*np
+    aplica = "Si"
+else:
+    valor = (nd*1500)*np
+    aplica = "No"
+
+print(f"Peliculas alquiladas: {np} \n"
+      f"Cantidad de dias: {nd} \n"
+      f"Aplica: {aplica}\n"
+      f"Valor a pagar: ${valor}")
