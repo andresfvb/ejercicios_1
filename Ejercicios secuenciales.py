@@ -62,3 +62,11 @@ print("El dinero quedo suministrado de la siguiente manera")
 print(f"Inversor 1: ${inv1} dando como porcentaje {(inv1/suma)*100}%")
 print(f"Inversor 1: ${inv1} dando como porcentaje {(inv2/suma)*100}%")
 print(f"Inversor 1: ${inv1} dando como porcentaje {(inv3/suma)*100}%")
+
+# punto 4 ---------------------------------------------------------------------
+
+base = int(input('Digite el salario base del empleado: $'))
+interes = (base*0.15)
+
+print(f"El valor a descontantar del 1.5% es de ${interes}")
+print(f"El valor a pagar es de ${base-interes}")
