@@ -121,3 +121,16 @@ print(f"Horas trabajadas {horas} \n"
       f"Valor a pagar antes de descuento: ${valor} \n"
       f"Valor del 5% de caja de ahorro: ${dcuento} \n"
       f"Valor a pagar: ${valor-dcuento}")
+
+# punto 9 ---------------------------------------------------------------------
+
+cinicial = int(input("Digite de que valor es la tarjeta: $"))
+cfinal = int(input("Digite cuanto saldo queda en la tarjeta: $"))
+consumido = cinicial-cfinal
+recargo = consumido*0.2
+
+print(f"Saldo inicial tarjeta: ${cinicial} \n"
+        f"Saldo final de la tarjeta: ${cfinal} \n"
+        f"Monto consumido: ${consumido} \n"
+        f"Valor de recargo ${recargo}\n"
+        f"Valor a cancelar: ${consumido+recargo}")
