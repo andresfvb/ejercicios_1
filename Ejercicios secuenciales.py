@@ -50,3 +50,15 @@ edad = int(input('Cuantos años tiene?: '))
 npul = (200-edad)/10
 
 print(f"La cantidad de pulsaciones que tiene cada 10 segundos es de: {npul}")
+
+# punto 3 ---------------------------------------------------------------------
+
+inv1 = int(input('Dinero del inversor 1: $'))
+inv2 = int(input('Dinero del inversor 2: $'))
+inv3 = int(input('Dinero del inversor 3: $'))
+suma = inv1+inv2+inv3
+print("fLos inversores depositaron el dinero dando como total: ${suma}")
+print("El dinero quedo suministrado de la siguiente manera")
+print(f"Inversor 1: ${inv1} dando como porcentaje {(inv1/suma)*100}%")
+print(f"Inversor 1: ${inv1} dando como porcentaje {(inv2/suma)*100}%")
+print(f"Inversor 1: ${inv1} dando como porcentaje {(inv3/suma)*100}%")
