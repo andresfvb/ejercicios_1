@@ -130,17 +130,30 @@ consumido = cinicial-cfinal
 recargo = consumido*0.2
 
 print(f"Saldo inicial tarjeta: ${cinicial} \n"
-        f"Saldo final de la tarjeta: ${cfinal} \n"
-        f"Monto consumido: ${consumido} \n"
-        f"Valor de recargo ${recargo}\n"
-        f"Valor a cancelar: ${consumido+recargo}")
+      f"Saldo final de la tarjeta: ${cfinal} \n"
+      f"Monto consumido: ${consumido} \n"
+      f"Valor de recargo ${recargo}\n"
+      f"Valor a cancelar: ${consumido+recargo}")
 
 # punto 10 --------------------------------------------------------------------
 
 cfotos = int(input("Cantidad de fotos a revelar: "))
 IVA = (cfotos*1500)*0.16
 print(f"Cantidad a revelar: {cfotos} \n"
-        f"Precio unidad de foto: $1500 \n"
-        f"Valor antes de IVA: ${cfotos*1500}\n"
-        f"Valor a cobrar + IVA ${IVA}\n"
-        f"Valor a cancelar: ${IVA+(cfotos*1500)}")
+      f"Precio unidad de foto: $1500 \n"
+      f"Valor antes de IVA: ${cfotos*1500}\n"
+      f"Valor a cobrar + IVA ${IVA}\n"
+      f"Valor a cancelar: ${IVA+(cfotos*1500)}")
+
+# punto 11 --------------------------------------------------------------------
+
+gineco = 0.4
+trauma = 0.3
+pedia = 0.3
+
+monto = int(input("cuanto dinero ingreso al hospital: $"))
+
+print(f"Monto ingresado al hospital: ${monto} \n"
+      f"Presupuesto para Ginecologia: ${monto*gineco} \n"
+      f"Presupuesto para Traumatologia ${monto*trauma}\n"
+      f"Presupuesto para pediatria ${monto*pedia}")
