@@ -96,3 +96,17 @@ cm = 15000*ncm
 co = 25000*nco
 cobro = pa+cm+co
 print(f"El valor de su clasificado es de ${cobro}")
+
+# punto 7 ---------------------------------------------------------------------
+
+bantiguo = 100000
+bcontinuo = 120000
+años = int(input('Digite cuantos años tiene el empleado en la empresa: '))
+
+if años > 1: 
+    pbono = (años*bcontinuo)+bantiguo
+else:
+    pbono = bantiguo
+
+print(f"La antigüedad del empleado es de {años} "
+      f"tiene derecho a cobrar ${pbono} en bono")
