@@ -176,3 +176,16 @@ print(f"Peliculas alquiladas: {np} \n"
       f"Cantidad de dias: {nd} \n"
       f"Aplica: {aplica}\n"
       f"Valor a pagar: ${valor}")
+
+# punto 13 --------------------------------------------------------------------
+
+miembros = int(input("Cuantas personas componen la familia: "))
+dias = int(input("Cuantos dias dura el tour que escogio la familia: "))
+grupov = (miembros*25000)*dias
+IVA = 0.12*grupov
+
+print(f"numero de personas: {miembros} \n"
+      f"Dias que dura el tour: {dias} \n"
+      f"Valor antes de IVA: {grupov}\n"
+      f"Valor IVA: {IVA}\n"
+      f"Valor a pagar: ${IVA+grupov}")
