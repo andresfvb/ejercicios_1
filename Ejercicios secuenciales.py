@@ -44,3 +44,9 @@ print("Haga un algoritmo que calcule la masa de la siguiente fórmula: ")
 print("Masa = (presión * volúmen) / (0.37 * (temperatura + 460))")
 print(f"masa = ({presion}*{volumen}/(0.37*{temperatura+460})) = {masa}")
 
+# punto 2 ---------------------------------------------------------------------
+
+edad = int(input('Cuantos años tiene?: '))
+npul = (200-edad)/10
+
+print(f"La cantidad de pulsaciones que tiene cada 10 segundos es de: {npul}")
